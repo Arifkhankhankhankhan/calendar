@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background:blueviolet ;
+}
+
+.calendar{
+   background: white;
+  width: 250px;
+  height: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 5px 3px 5px rgba(0,0,0,0.3);
+}
+.header{background-color: orangered;
+  padding: 10px;
+  font-size: 2rem;
+  border-radius: 8px  8px 0px 0px;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 5px;
+
+
+
+
+
+
+}
+
+.days{
+    margin: 15px;
+    font-size: 1.8rem;
+    color: grey;
+
+}
+
+.dates{
+font-size: 4rem;
+font-weight: bold;
+}
+.year{
+    margin: 15px;
+    font-size: 1.8rem;
+    color: grey;
+}
